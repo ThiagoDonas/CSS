@@ -5,9 +5,30 @@
 
     background: #F3F5F7;
 }
+#tituloDaPagina{
+    width: 1440px;
+    height: 96px;
+    position: absolute;
+    background: #175CD3;
+}
+
+h1{
+    position: absolute;
+    margin: 0;
+    left: 92px;
+    top: 32px;
+    color: #FFFFFF;
+}
+
+#lateral{
+    position: absolute;
+    width: 260px;
+    height: 864px;
+    top: 96px;
+    background:#FFFFFF ;
+}
 
 #divprincipal{
-    border: 2px solid;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -16,12 +37,6 @@
     left:292px;
     top: 128px;
     background: #ffffff;
-}
-
-img{
-    left: 275.33px;
-    top: 25.33px;
-    border: 2px solid #D3D9E6;
 }
 
 .bloco{
@@ -66,6 +81,7 @@ img{
     width: 32px;
     height: 32px;
     margin: 25.33px 0 0 0;
+    border: 2px solid #D3D9E6;
 }
 
 .valor{
@@ -96,3 +112,55 @@ img{
 #bloco4{
     margin: 0 24px 138px 48px;
 }
+
+.tabela{
+    width: 434px;
+    height: 290px;
+    margin: 24px 32px 32px 32px;
+}
+
+caption{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+#nome{
+    text-align: left;
+}
+.primeiraColuna{
+    width: 162px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #273246;
+}
+.segundaColuna{
+    width: 68px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #273246;
+
+}
+
+.index{
+    width: 8px;
+    height: 24px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+
+    color: #AFBBD0;
+}
+
