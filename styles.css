@@ -9,85 +9,68 @@
 #divprincipal{
     border: 2px solid;
     position: absolute;
+    display: flex;
     width: 1116px;
     height: 800px;
     left:292px;
     top: 128px;
     background: #ffffff;
 }
-img{
-    width: 20px;
-}
-#bloco1{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 324px;
-    height: 146px;
-    left: 48px;
-    top: 120px;
-
-    border: 1px solid #D3D9E6;
-    border-bottom: 1px solid #175CD3;
-}
-#bloco2{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 324px;
-    height: 146px;
-    left: 396px;
-    top: 120px;
-    
-    
-    border: 1px solid #D3D9E6;
-    border-bottom: 1px solid #175CD3;
-}
-#bloco3{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 324px;
-    height: 146px;
-    left: 744px;
-    top: 120px;
-
-
-    border: 1px solid #D3D9E6;
-    border-bottom: 1px solid #1A9A3E;
-}
-
-.titulo{
-    position: absolute;
-    width: 164px;
-    height: 24px;
-    left: 32px;
-    top: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-
-
-    color: #273246;
-}
 
 img{
-    position: absolute;
     left: 275.33px;
     top: 25.33px;
     border: 2px solid #D3D9E6;
 }
 
+.bloco1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 324px;
+    height: 146px;
+    left: 48px;
+    top: 120px;
+    gap: 79.33;
+    border: 1px solid #D3D9E6;
+    border-bottom: 1px solid #175CD3;
+    
+}
+#bloco1{
+    margin: 120px 24px 24px 48px;
+}
+
+#bloco2{
+    margin: 120px 24px 24px 0;
+}
+
+#bloco3{
+    margin: 120px 24px 24px 0;
+}
+
+.titulo{
+    
+    width: 164px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 76px 42px 32px;
+
+    color: #273246;
+}
+
+img{
+    width: 32px;
+    height: 32px;
+    margin: 25.33px 0 0 0;
+}
+
 .valor{
-    position: absolute;
     width: 56px;
     height: 32px;
-    left: 32px;
-    top: 90px;
-
+    margin: 0 0 24px 32px;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
