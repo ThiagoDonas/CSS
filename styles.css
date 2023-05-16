@@ -2,13 +2,13 @@
     position: relative;
     width: 1440px;
     height: 960px;
-
     background: #F3F5F7;
 }
+
 #tituloDaPagina{
     width: 1440px;
     height: 96px;
-    position: absolute;
+    display: block;
     background: #175CD3;
 }
 
@@ -20,6 +20,21 @@ h1{
     color: #FFFFFF;
 }
 
+div[id='tituloDaPagina'] p {
+    position: absolute;
+    margin: 0;
+    top: 35px;
+    left: 1373px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+}
 ul{
     padding-left: 0;
     display: flex;
@@ -27,13 +42,16 @@ ul{
     justify-content: flex-start;
 }
 
+ul:first-child{
+    margin-top: 32px;
+}
+
 li{
     width: 260px;
     height: 60px;
-    margin-top: 32px;
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
+
 li p{
     width: 94px;
     height: 24px;
@@ -44,14 +62,11 @@ li p{
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
-
-
-    /* blue/principal */
 
     color: #175CD3;
 
 }
+
 #lateral{
     position: absolute;
     width: 260px;
@@ -64,6 +79,7 @@ li p{
     position: absolute;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     width: 1116px;
     height: 800px;
     left:292px;
@@ -71,28 +87,66 @@ li p{
     background: #ffffff;
 }
 
+#divdotitulo{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 48px;
+    flex-basis: 100%;
+}
+
+h2{
+    margin: 0;
+    width: 287px;
+    height: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
+    letter-spacing: -0.02em;
+
+    color: #273246;
+}
+
+a{
+    width: 76px;
+    height: 26px;
+    margin-top: 7px;
+    margin-left: 657px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+
+
+    color: #175CD3;
+}
 .bloco{
     display: flex;
     flex-wrap: wrap;
     width: 324px;
     height: 146px;
     left: 48px;
-    top: 120px;
-    gap: 79.33;
     border: 1px solid #D3D9E6;
     border-bottom: 1px solid #175CD3;
     
 }
 #bloco1{
-    margin: 120px 24px 24px 48px;
+    margin: 40px 24px 24px 48px;
 }
 
 #bloco2{
-    margin: 120px 24px 24px 0;
+    margin: 40px 24px 24px 0;
 }
 
 #bloco3{
-    margin: 120px 24px 24px 0;
+    margin: 40px 24px 24px 0;
 }
 
 .titulo{
@@ -149,16 +203,32 @@ img{
     width: 434px;
     height: 290px;
     margin: 24px 32px 32px 32px;
+    border-spacing: 0px;
 }
 
+th{
+    border-bottom: 1px solid #D3D9E6;
+    
+}
 caption{
     text-align: left;
     margin-bottom: 24px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+
+    letter-spacing: -0.02em;
+
+    color: #273246;
 }
 
 #nome{
     text-align: left;
 }
+
 .primeiraColuna{
     width: 162px;
     height: 24px;
@@ -195,4 +265,3 @@ caption{
 
     color: #AFBBD0;
 }
-
